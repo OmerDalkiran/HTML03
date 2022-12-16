@@ -1,0 +1,402 @@
+-----------------08-----------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            list-style-type:"🍓";
+            list-style-position: outside;
+            width:30%;
+        }
+        .menu a{
+            color:black;
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+       /*  .menu li{
+            background-color: red;
+        } */
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#">Ana Sayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">İletişim</a></li>
+    </ul>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            list-style-type:"🍓";
+            list-style-position: outside;
+            width:30%;
+        }
+        .menu a{
+            color:black;
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+       /*  .menu li{
+            background-color: red;
+        } */
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#">Ana Sayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">İletişim</a></li>
+    </ul>
+</body>
+</html>
+------------------09---------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.menu{
+list-style: none;
+}
+
+a:link{
+    color: green
+}
+a:visited{
+color: black;
+
+}
+a:hover{
+    color: red;
+    background-color: aqua;
+}
+a:active{
+    color: aquamarine;
+}
+
+    </style>
+</head>
+<body>
+       <ul class="menu">
+        <li><a href="#">Ana Sayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">İletişim</a></li>
+    </ul>
+</body>
+</html>
+---------------------10--------------------------
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            padding:2rem; /* top:2rem,bottom:2rem,right:2rem,left:2rem */
+        }
+        .kutu1{
+            background-color: yellow;
+            padding:1rem 3rem; /* top ve bottom : 1rem, right ve left : 3rem */
+        }
+        .kutu2{
+            background-color: red;
+            padding:30px 20px 25px 50px; /* top:30px right:20px bottom:25px left:50px */
+            margin-top:2rem; 
+            margin-left:3rem;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="kutu1">
+      <h1>Başlık-1</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam libero
+        laboriosam totam saepe harum iusto mollitia, velit quam voluptatum eius
+        quasi facere quibusdam expedita incidunt necessitatibus autem ipsum fuga
+        ratione?
+      </p>
+    </div>
+    <div class="kutu2">
+      <h2>Başlık-2</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint atque rem
+        neque omnis fugit et deserunt error, labore quas minus. Perferendis ad
+        pariatur consectetur atque quibusdam nulla tempora molestiae odio.
+      </p>
+    </div>
+  </body>
+</html>
+-----------------------11-------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .kutu1{
+            background-color:aqua;
+            padding:1rem;
+            text-align:center;
+        }
+        .kutu2{
+            background-color:blueviolet;
+            height:200px;
+        }
+        .kutu3{
+            background-color:aquamarine;
+            width:200px;
+            height:200px;
+            margin-right:auto;
+            margin-left:auto;
+        }
+        .kutu4{
+            background-color:darkmagenta;
+            height:200px;
+        }
+        .kutu5{
+            background-color:yellow;
+            width:200px;
+            height:200px;
+            margin-right:0;
+            margin-left:auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Inline elementtlerin Hizalanması</h2>
+    <div class="kutu1">
+        <span style="background-color:blanchedalmond;">Merhaba Dünya</span>
+    </div>
+    <h2>Block elementlerin Hizalanması-1</h2>
+    <div class="kutu2">
+        <div class="kutu3"></div>
+    </div>
+    <h2>Block elementlerin Hizalanması-2</h2>
+    <div class="kutu4">
+        <div class="kutu5"></div>
+    </div>
+</body>
+</html>
+-------------------------12---------------------
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .kutu1,.kutu2,.kutu3,.kutu4{
+            width:200px;
+            height:200px;
+            display:inline-block;
+            margin-right:2rem;
+        }
+        .kutu1{
+            background-color: yellow;
+        }
+        .kutu2{
+            background-color: blue;
+        }
+        .kutu3{
+            background-color: brown;
+        }
+        .kutu4{
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="kutu1"></div>
+        <div class="kutu2"></div>
+        <div class="kutu3"></div>
+        <div class="kutu4"></div>
+    </div>
+</body>
+</html><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.kutu1,.kutu2,.kutu3,.kutu4{
+
+width: 200px;
+height: 200px;
+display: inline-block;
+}
+.kutu1{
+    background-color: aquamarine;
+}
+</style>
+
+</head>
+<body>
+    
+<div class="container">
+<div class="kutu1"></div>   <!--  div.kutu1*4 -->
+<div class="kutu2"></div>
+<div class="kutu3"></div>
+<div class="kutu4"></div>
+
+
+</div>
+
+
+</body>
+</html>
+-------------------------13----------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu ul{
+            text-align: center;
+        }
+        .menu ul li{
+           display:inline;
+           margin-right:1rem; 
+        }
+        .menu ul a{
+            text-decoration:none;
+            font-size:1.3rem;
+            background-color: brown;
+            color:white;
+            padding:1rem;
+            border-radius:15px;
+            width:120px;
+            display:inline-block;
+        }
+        .menu ul a:hover{
+            color:yellow;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">Kadromuz</a></li>
+            <li><a href="#">Projeler</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+--------------------------14----------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding:1rem;
+        }
+        div{
+            width:200px;
+            height:200px;
+            font-size:1.2rem;
+            color:yellow;
+            display:inline-block;
+            margin-right:1rem;
+        }
+        div.kutu1{
+            background-color: aqua;
+            border:2px solid black;
+            padding:1rem;
+        }
+        div.kutu2{
+            background-color: red;
+            border-radius:50%;
+            padding:2.4rem;
+        }
+        div.kutu3{
+            background-color:blue;
+            padding:1.5rem;
+        }
+        img{
+            border-radius:50%;
+            display:block;
+            margin-bottom:1rem;
+        }
+        span{
+            background-color:lightgray;
+            width:200px;
+            border-left:5px solid green; 
+            padding:.5rem 1rem;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="kutu1">Kutu-1</div>
+    <div class="kutu2">Kutu-2</div>
+    <div class="kutu3">Kutu-3</div>
+    <img src="assets/img/araba.jpg" alt="araba" width="250px">
+    <span>Border Örneği</span>
+</body>
+</html>
+---------------------------15----------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("assets/img/araba.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .arkaplan{
+            width:500px;
+            height:400px;
+            background-image: url("assets/img/araba.png");
+            background-repeat: no-repeat;
+            background-position: right top;
+            margin-right:0;
+            margin-left:auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="arkaplan"></div>
+</body>
+</html>
